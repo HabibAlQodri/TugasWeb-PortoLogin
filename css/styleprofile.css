@@ -44,3 +44,30 @@
     color: #000000;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.table-card {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.foto-card {
+    size: 10px;
+}
+
+.identitas {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.identitas td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
